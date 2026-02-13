@@ -1,0 +1,133 @@
+
+/* ----------sm----------- */
+@media screen and (max-width: 640px) {
+  :root {
+    font-size: 7px;
+  }
+  .container {
+    padding: 5rem 3rem 2rem 3rem;
+  }
+  .none {
+    display: none;
+  }
+  .w-md-100 {
+    width: 100%;
+  }
+  .categories-head,
+  .newsletter-head {
+    margin-top: 3rem;
+  }
+  .card .w-md-100 {
+    width: 100%;
+  }
+  .right-side .image img {
+    transform: rotate(0deg);
+  }
+  .right-side .image img:hover {
+    transform: translate(-2px, -2px);
+  }
+  .newsletter-head {
+    margin-top: 3rem;
+  }
+  aside .menu {
+    width: 70%;
+  }
+  .privacy-policy {
+    justify-content: center;
+  }
+}
+/* ----------------md------------------ */
+@media screen and (min-width: 641px) and (max-width: 767px) {
+  .none {
+    display: inline !important;
+  }
+  :root {
+    font-size: 8px;
+  }
+  .container {
+    padding: 5rem 3.5rem 2rem 3.5rem;
+  }
+  .newsletter-head {
+    margin-top: 3rem;
+  }
+  .w-md-100 {
+    width: 100%;
+  }
+  .card .w-md-100 {
+    width: 100%;
+  }
+  aside .menu {
+    width: 50%;
+  }
+  .right-side .image img {
+    transform: rotate(0deg);
+  }
+  .right-side .image img:hover {
+    transform: translate(-2px, -2px);
+  }
+  
+}
+/* ---------------------xl----------------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .none {
+    display: inline !important;
+  }
+  :root {
+    font-size: 9px;
+  }
+  .container {
+    padding: 5rem 4rem 2rem 4rem;
+  }
+  .newsletter-head {
+    margin-top: 3rem;
+  }
+  .w-md-100 {
+    width: 100%;
+  }
+  .card .w-md-100 {
+    width: 100%;
+  }
+  .w-xl-70{
+    width: 68%;
+    margin-top: -3rem;
+  }
+  .w-xl-30{
+    width: 28%;
+  }
+  aside .menu {
+    width: 35%;
+  }
+  .right-side .image img {
+    transform: rotate(0deg);
+  }
+  .right-side .image img:hover {
+    transform: translate(-2px, -2px);
+  }
+}
+/* -------------------2xl--------------------- */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .container {
+    padding: 5rem 3rem 2rem 3rem;
+  }
+  .w-xl-50 {
+    width: 48% ;
+  }
+}
+@media screen and (min-width: 1281px) {
+  aside {
+    left: 100% !important;
+  }
+}
+/* -------------------aside-appear------------------------ */
+@media screen and (max-width:1279px){
+  .nav-bar-links {
+    display: none;
+  }
+  .nav-bar-button {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+  
+}
